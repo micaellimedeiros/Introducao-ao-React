@@ -1,11 +1,10 @@
 import React from 'react';
 import './App.css';
 
-// Toda imagem deve ser importada
-
+import TechList from './components/TechList'
 
 function App(){
-  return <img src={profile} />
+  return <TechList />
 };
 
 export default App;
